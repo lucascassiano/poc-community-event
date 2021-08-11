@@ -1,0 +1,16 @@
+{
+  "name": "ipfs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "ipfs": "^0.56.1",
+    "ipfs-core": "^0.9.1"
+  }
+}

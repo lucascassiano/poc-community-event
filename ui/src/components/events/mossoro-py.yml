@@ -1,0 +1,19 @@
+name: "Mossoró Py"
+calendar:
+  - name: Workshop Flask
+    description: ./workshop-flask.md
+    author: lucascassiano
+    start: 2021-10-10 09:00
+    end: 2021-10-10 10:00
+
+  - name: Palestra WebSockets
+    description: ./mossoro-py-ago-2021.md
+    author: lucascassiano
+    start: 2021-10-10 11:15
+    end: 2021-10-10 12:15
+
+  - name: Workshop Cassiano
+    description: ./workshop_cassiano.md
+    author: lucascassiano
+    start: 2021-10-10 12:30
+    end: 2021-10-10 13:15
