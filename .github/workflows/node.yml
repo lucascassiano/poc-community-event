@@ -23,6 +23,8 @@ jobs:
       - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: --cwd ui  build # will run `yarn build` command
-#       - uses: borales/actions-yarn@v2.3.0
-#         with:
-#           cmd: test # will run `yarn test` command
+
+      - uses: JamesIves/github-pages-deploy-action@4.1.4
+          with:
+            branch: gh-pages # The branch the action should deploy to.
+            folder: ui/dist 
